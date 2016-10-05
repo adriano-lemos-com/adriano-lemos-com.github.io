@@ -33,13 +33,13 @@ author: "Adriano Lemos"
 title: "{ Adriano Lemos }"
 description: "Blog & website de Adriano Lemos, blog principalmente técnico. As opiniões expressas são minhas."
 keywords: "adriano, Lemos, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
+favicon: "/img/al-tag-16px.ico"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/al-tag-16px.ico"
 
 background-img: "../img/intro-bg.jpg"
 
