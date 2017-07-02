@@ -55,8 +55,9 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Não se pode avançar com medo de errar."
+  - text: "Melhor pedir desculpas que licença."
   - text: "Só erra quem faz!"
+  - text: "Só falha que para de tentar!"
 
 me-img: "/img/author.jpg"
 
