@@ -42,6 +42,8 @@ Finalmente chegamos: débito técnico!
 
 ---
 
+## ==== EM ANDAMENTO...SINTO MUITO ====
+
 
 
 
