@@ -1,198 +1,76 @@
+# Site
+title:              Lemos Dev
+bio:                'Um lugar para deixar alguns textos.'
+description:        "Um blog onde um possa registrar certas inquietações e informações."
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/logo.png'
+# background:         'assets/img/placeholder-big.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             pt_BR
+url:                https://adriano-lemos-dev.github.io
 
-# Site settings
-
-# NB! Set your site's url, otherwise stuff will break :)
-
-url: "https://adriano-lemos-com.github.io/"
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
-baseurl: 
-
-# Google tracking id
-
-google-tracking-id: ""
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
-
-force-https: True
-
-#############
-# HTML Head #
-#############
-
-lang: "pt-br"
-author: "Adriano Lemos"
-title: "{ Adriano Lemos }"
-description: "Blog & website de Adriano Lemos, blog principalmente técnico. As opiniões expressas são minhas."
-keywords: "adriano, Lemos, personal, jekyll, theme"
-favicon: "/img/al-tag-16px.ico"
-
-################
-# Header layout #
-################
-
-black-favicon: "/img/al-tag-16px.ico"
-
-# background-img: "../img/intro-bg.jpg"
-
-##############################
-# Dynamic Text on the Header #
-##############################
-
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "Melhor pedir desculpas que licença."
-  - text: "Só erra quem faz!"
-  - text: "Só falha que para de tentar!"
-
-me-img: "/img/author.jpg"
-
-##############################
-# Color the browser elements #
-##############################
-color-browser: "#000000"
-apple-status-bar-style: "black"
-
-################
-# Web app mode #
-################
-
-web-app-mode: True
-
-# Icons for Web App mode
-
-icon-36p: "/img/web-app/al-icon-36p.png"
-icon-48p: "/img/web-app/al-icon-48p.png"
-icon-72p: "/img/web-app/al-icon-72p.png"
-icon-96p: "/img/web-app/al-icon-96p.png"
-icon-144p: "/img/web-app/al-icon-144p.png"
-icon-192p: "/img/web-app/al-icon-192p.png"
-
-########
-# Blog #
-########
-
-enable-gesture-navigation: True
-
-post-preview-words: 96
-
-paginate: 5
-
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: False
-google-plus-share: False
-tumblr-share: False
-pinterest-share: False
-pocket-share: False
-vkontakte-share: False
-
-disqus-shortname: "adrianolemos"
-
-syntax-highlight: True
-
-############
-# Timeline #
-############
-
-events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "Abril 2016 - Atualmente"
-    description: "De volta à CDS!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "Julho 2013 - Abril 2016"
-    description: "Uma aventura no Nordeste!"
-
-# First image of the Timeline
-
-timeline-img: "/img/timeline/default.png"
-
-###########
-# Contact #
-###########
-
-email: "adriano.lemos.dev@gmail.com"
-
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb: "Adriano é desenvolvedor de software atualmente trabalhando como Analista Judiciário no TST. Trabalho com desenvolvimento iOs e toco violão em horas mundanas."
-author_blurb_image: "/img/author.jpg"
-
-##################
-# Social Buttons #
-##################
-
-social:
-  - title: "facebook"
-    url: "https://facebook.com/adriano.pinheiro.lemos"
-  - title: "twitter"
-    url: "https://twitter.com/lemos_dev"
-  - title: "github"
-    url: "https://github.com/adriano-lemos"
-  - title: "rss"
-    url: "/feed.xml"
-
-############
-# 404 page #
-############
-
-404-img: "/img/labtocat.png"
-
-##################
-# GPG on Keybase #
-##################
-
-keybase-username: adrianolemos
-keybase-in-social: False
-keybase-in-footer: False
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Sections shown in the index page
-
-pages_list:
-  Sobre: 'about'
-  Blog: 'latest-post'
-  Timeline: 'timeline'
-  Contato: 'contact'
-
-# Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts", "posts_originais"]
-
-# Pagination path
-
-paginate_path: "blog/page:num/"
-
-# Enable minification SASS
-
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
 sass:
-  style: compressed
+  sass_dir:         _sass
+  style:            compressed
 
+# Comments
+disqus_shortname:   adrianolemos
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+twitter:            lemos_dev
+facebook:           adriano.pinheiro.lemos
+github-url:         adriano-lemos-dev
+#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:          adrianopinheirolemos
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
 gems:
-  - jekyll-paginate
-  - jemoji
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
