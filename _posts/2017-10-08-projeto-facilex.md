@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 section-type: project
 title: O Projeto FaciLex
 category: Projetos
