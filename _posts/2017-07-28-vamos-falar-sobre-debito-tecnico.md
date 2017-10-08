@@ -1,7 +1,8 @@
 ---
 layout: post
 section-type: post
-title: Vamos falar sobre débito técnico?
+title: "Vamos falar sobre débito técnico?"
+excerpt: "Pensar sobre as decisões que tomamos e o cursto disso para o projeto é parte da disciplina profissional que todos temos que exercitar em cada um dos nossos projetos de software"
 category: Gestão
 tags: [ 'tech debt', 'débito técnico', 'fábrica de software', 'serviço público federal' ]
 ---
