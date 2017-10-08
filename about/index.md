@@ -1,37 +1,17 @@
 ---
 layout: page
-title: About the Theme
-tags: [about, Jekyll, theme, moon]
+title: Quem é esse cara?
+tags: [sobre, Adriano Lemos]
 date: 2016-03-21
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+Gosto de desenvolver software e fazer um som. No primeiro estou sempre aprendendo com os erros e no segundo só me divertindo com os erros e aprendizados. Tenho verdadeira paixão por leitura e pretenções dispriorizados com relação à escrever algo substancial (quem sabe não começo aqui).
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+## Atuais estudos & interesses
+* Full-stack software develoment with ES6+
+* Blockchain, Smart Contracts, DAOs & decentralized applications
+* Decision Making
+* Machine Learning
 
-## Preview
-
-{% capture images %}
-    https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png
-    https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-{% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-
-See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
-
-## Getting Started
-
-To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
-      
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+Vejamos se consigo elaborar mais um pouco por aqui cada um desses tópicos.
