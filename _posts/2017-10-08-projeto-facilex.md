@@ -1,6 +1,7 @@
 ---
 layout: post
 section-type: project
+project: FaciLex
 title: O Projeto FaciLex
 category: Projetos
 tags: [ 'LawTech', 'Startup', 'App', 'CPC', 'Novo CPC' ]
