@@ -5,6 +5,7 @@ title: "Vamos falar sobre débito técnico?"
 excerpt: "Pensar sobre as decisões que tomamos e o cursto disso para o projeto é parte da disciplina profissional que todos temos que exercitar em cada um dos nossos projetos de software"
 category: Gestão
 tags: [ 'tech debt', 'débito técnico', 'fábrica de software', 'serviço público federal' ]
+comments: true
 ---
 
 ### Vamos falar sobre débito técnico?
@@ -31,9 +32,9 @@ Já trabalhei em algumas empresas antes de aterrissar no Tribunal Superior do Tr
 
 Então por que motivo há tanto _software_ finalizado e em produção com baixíssima qualidade, resultando em um alto custo de manutenção e uma experiência do usuário ruim? Por que nos desrespeitamos tanto ao ponto de entregarmos um _software_ ruim que será nosso pesadelo muito brevemente?
 
-Os prazos são curtos? Ok, vamos por aí. Quando nos concentramos em algo que não podemos controlar não chegamos a resultado algum. Se o prazo é dado, toda a responsabilidade foi tirada de nossos ombros. Isso quando nossas considerações e avaliações não são levadas em conta no processo decisório que levou ao estabelecimento do prazo.
+Os prazos são curtos? Ok, vamos por aí. Quando nos concentramos em algo que não podemos controlar não chegamos a resultado algum. Se o prazo é dado, toda a responsabilidade foi tirada de nossos ombros. Isso quando nossas considerações e avaliações não são consideradas no processo decisório que levou ao estabelecimento do prazo.
 
-Sendo assim, o que nos importa é a qualidade com a qual concluiremos o trabalho! Iss sim podemos controlar. Isso sim irá determinar se o que foi entregue terá agregado valor à organização ou gerado uma dívida a ser paga com altos juros.
+Sendo assim, o que nos importa é a qualidade com a qual concluiremos o trabalho! Isso sim podemos controlar. Isso sim irá determinar se o que foi entregue terá agregado valor à organização ou gerado uma dívida a ser paga com altos juros.
 
 Nosso trabalho é imaterial em quase todos os aspectos e é por essa mesma razão que temos a obrigação de _materializá-lo_ para nossa camada de gerência. É nossa responsabilidade encontrar alguma forma de apresentar as consequências que um trabalho de má qualidade terão em uma organização. Para isso, uma boa metáfora é uma ferramenta bem útil. Uma metáfora financeira é **muito** eficaz, afinal quem não entende que perder dinheiro é ruim?
 
